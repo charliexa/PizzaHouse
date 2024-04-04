@@ -22,7 +22,7 @@
             The North's Best Pizzas
         </div>
         <p class="mssg">{{ session("mssg") }}</p>
-        <a href="{{ route("pizzas.create") }}">Order A Pizza</a>
+        <a href="{{ route("pizzas.create") }}">make a new order</a>
     </div>
 </div>
 @endsection
